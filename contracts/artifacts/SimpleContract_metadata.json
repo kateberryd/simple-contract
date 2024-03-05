@@ -1,0 +1,153 @@
+{
+	"compiler": {
+		"version": "0.8.24+commit.e11b9ed9"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "a",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "b",
+						"type": "uint256"
+					}
+				],
+				"name": "divideNumbers",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getDividedNum",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getFullName",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getSumOfNumbers",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "name",
+						"type": "string"
+					}
+				],
+				"name": "storeName",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "a",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "b",
+						"type": "uint256"
+					}
+				],
+				"name": "sumNumbers",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {
+				"divideNumbers(uint256,uint256)": {
+					"details": "accept two numbers then divide and store the result"
+				},
+				"getDividedNum()": {
+					"details": "retrieves the divided result from the state"
+				},
+				"getFullName()": {
+					"details": "returns fullName form the state"
+				},
+				"getSumOfNumbers()": {
+					"details": "retrieves the sum of two vales"
+				},
+				"storeName(string)": {
+					"details": "modifies name / changes state"
+				},
+				"sumNumbers(uint256,uint256)": {
+					"details": "recieves two positive intergers sum them up and save the result "
+				}
+			},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/assignment.sol": "SimpleContract"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/assignment.sol": {
+			"keccak256": "0x033b249289959966fe21190294b1dd512db7dc080701c6b9a5efc185ed3f20de",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://43fffa506eb3040f491dfee32ad355791b8cf50203300a3017f313fbda29e4d0",
+				"dweb:/ipfs/QmSsL2LF3b2bK6UE3jxQp8jRT81X7VrL3TGDUcKC4XMqAQ"
+			]
+		}
+	},
+	"version": 1
+}
