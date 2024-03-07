@@ -11,7 +11,7 @@ contract SimpleContract {
     * @dev  modifies name / changes state
     */
 
-    function storeName (string memory name) public {
+    function storeName (string memory name) external  {
         fullName = name;
     }
 
@@ -27,7 +27,7 @@ contract SimpleContract {
     * @dev recieves two positive intergers sum them up and save the result 
     */
 
-    function sumNumbers (uint256 a, uint256 b) public {
+    function sumNumbers (uint256 a, uint256 b) external  {
         sumOfTwoNumbers = a + b;
     }
 
@@ -45,7 +45,7 @@ contract SimpleContract {
     * @dev accept two numbers then divide and store the result
     */
 
-    function divideNumbers (uint256 a, uint256 b) public {
+    function divideNumbers (uint256 a, uint256 b) external  {
         dividedNum = a / b;
     }
 

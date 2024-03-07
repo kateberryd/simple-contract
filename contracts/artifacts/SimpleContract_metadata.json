@@ -126,7 +126,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/assignment.sol": "SimpleContract"
+			"contracts/simpleContract.sol": "SimpleContract"
 		},
 		"evmVersion": "shanghai",
 		"libraries": {},
@@ -140,12 +140,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/assignment.sol": {
-			"keccak256": "0x033b249289959966fe21190294b1dd512db7dc080701c6b9a5efc185ed3f20de",
+		"contracts/simpleContract.sol": {
+			"keccak256": "0xd3af21ac02fdff2fb5fa8e8e8b88f65493c5c82baca246c2a069f5622be8ba59",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://43fffa506eb3040f491dfee32ad355791b8cf50203300a3017f313fbda29e4d0",
-				"dweb:/ipfs/QmSsL2LF3b2bK6UE3jxQp8jRT81X7VrL3TGDUcKC4XMqAQ"
+				"bzz-raw://0d5f0f074737e8ae222335279db7c7f290581179f5afd20ad024059ddc831ded",
+				"dweb:/ipfs/QmNhjhqKG9V6taHYeywKJaSeyP3UfynGF1ghHfJbTGVm5G"
 			]
 		}
 	},
